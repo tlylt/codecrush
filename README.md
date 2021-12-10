@@ -17,6 +17,7 @@ When you are viewing your submissions on CodeCrunch, Two floating buttons will a
 - "show all files": will display all files with syntax highlighting, on the current page.
 - "download all files": will download all files in one single click.
 
+## Screenshots
 ![screenshot1](./images/1.JPG)
 ![screenshot2](./images/1.PNG)
 ![screenshot3](./images/2.JPG)
