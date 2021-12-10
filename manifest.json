@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "CodeCrush",
+  "description": "Saving your precious seconds when using CodeCrunch. Developed by Yongliang.",
+  "author": "Yongliang",
+  "version": "1.0.0",
+  "icons": { "128": "icon_128.png" },
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://codecrunch.comp.nus.edu.sg/course_task_viewsubmission.php*",
+        "https://codecrunch.comp.nus.edu.sg/user_task_viewsubmission.php*"
+      ],
+      "js": ["highlight.js", "script.js"],
+      "css": ["highlight.css", "styles.css"]
+    }
+  ]
+}

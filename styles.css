@@ -1,0 +1,27 @@
+.floatingButton {
+  position: fixed;
+  width: min-content;
+  height: 62px;
+  bottom: 80px;
+  right: 160px;
+  background-color: #0c9;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  white-space: normal !important;
+  border-color: white;
+}
+
+.floatingButton2 {
+  position: fixed;
+  width: min-content;
+  height: 62px;
+  bottom: 80px;
+  right: 60px;
+  background-color: #0c9;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  white-space: normal !important;
+  border-color: white;
+}
