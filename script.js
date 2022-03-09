@@ -65,13 +65,16 @@ const urlFetchError = (panel) => async (res) => {
     alert("Please refresh to try fetching the files again:/");
 };
 
-function downloadFile(url) {
+function downloadFile(url, index) {
     // handle auto downloading of files
-    const name = getFilename(url);
-    const link = document.createElement("a");
-    link.href = url;
-    link.download = name;
-    link.dispatchEvent(new MouseEvent("click"));
+    setTimeout(() => {
+        console.log("downloading:" + url)
+        const name = getFilename(url);
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = name;
+        link.dispatchEvent(new MouseEvent("click"));
+    }, 100 * index);
 }
 
 
@@ -91,8 +94,8 @@ function handleShowButton(e) {
 }
 function handleDownloadButton(e) {
     e.target.remove();
-    getSourceUrls().map((url) => {
-        downloadFile(url);
+    getSourceUrls().map((url, index) => {
+        downloadFile(url, index);
     });
 }
 
