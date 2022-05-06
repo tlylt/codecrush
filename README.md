@@ -24,7 +24,7 @@ When you are viewing your submissions on CodeCrunch, Two floating buttons will a
 ![screenshot4](./images/3.JPG)
 
 ## Acknowledgement
-Some code are basically scripts done by SOC seniors who had implemented the functionalities that we all wanted (Kudos to them). I modified and improved on the code to create this extension for easier use. 
+Some code are basically scripts done by SOC seniors who had implemented the functionalities that we all wanted (Kudos to them). I modified and improved on the code to create this extension for easier use.
 
 ## Contribution
 While this is indeed a simple extension, it has truly saved some time when I was an undergraduate teaching assistant for CS2030/S. Feel free to use it and I hope it helps you too. If you like, contribute and make it better. I regret not persuing this project further and help make CodeCrunch even better, but oh well.

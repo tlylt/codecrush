@@ -74,7 +74,7 @@ function downloadFile(url, index) {
         link.href = url;
         link.download = name;
         link.dispatchEvent(new MouseEvent("click"));
-    }, 100 * index);
+    }, 200 * index);
 }
 
 
